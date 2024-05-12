@@ -24,58 +24,27 @@ Create a directory named "MyLab" on the desktop.
 ## COMMAND AND OUTPUT
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
-mkdir %userprofile%\Desktop\MyLab
+![WhatsApp Image 2024-05-08 at 15 18 37_5a8c269b](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/dbed8939-2126-4e90-ad2d-11ed4157aed2)
 
-![Screenshot 2024-04-25 133425](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/87135a53-46fb-4434-bc7e-48a9b89bef8a)
-
-## COMMAND AND OUTPUT
-
-List the contents of the "MyLab" directory.
-cd %userprofile%\Desktop\MyLab
-
-![Screenshot 2024-04-25 133440](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/a837e661-0502-48bd-8c47-77377ea5a11c)
 
 ## COMMAND AND OUTPUT
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
-dir %userprofile%\Desktop\MyLab
-
-![Screenshot 2024-04-25 133447](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/25b03d45-ace6-42ec-9c39-a1848f7d1650)
+![WhatsApp Image 2024-05-08 at 15 18 52_2747df75](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/682ccf58-3751-4da6-83d1-6aa8a49569c9)
 
 ## COMMAND AND OUTPUT
 
 Move the "MyLab" directory to the "Documents" folder.
-mkdir %userprofile%\Desktop\Backup
-mkdir %userprofile%\Desktop\Backup
 
-![Screenshot 2024-04-25 133455](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/009ec9c0-1564-4ded-a52b-6b81e0a4e5fc)
-
-
-## COMMAND AND OUTPUT
-mv Myfile.txt %userprofile%\Documents
-
-![Screenshot 2024-04-25 133502](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/5be87448-4a7a-4ed0-a851-29ed2444a6ce)
-
+![WhatsApp Image 2024-05-08 at 15 19 17_ee6c1b72](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/ad339857-f5f1-4bd9-b63a-50e274bb1204)
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
 
-@echo off
-mkdir %userprofile%\Desktop\DocBackup
-copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
-echo Backup completed successfully!
-
-
-
-
-
-
 ## OUTPUT
 
-![Screenshot 2024-04-25 133507](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/7dc8c005-1de7-48b0-8aae-805122837df5)
 
-
+![WhatsApp Image 2024-05-08 at 15 24 46_6e3d06b1](https://github.com/PremkumarG3/Windows-basic-commands-batchscript/assets/138955646/fd731cb4-3749-4569-9a5f-58ff9c536001)
 
 # RESULT:
 The commands/batch files are executed successfully.
-
